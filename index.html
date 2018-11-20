@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Lettermap Cipher - Kel. 5</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>CIPHER WEB APP 1.0</h1>
+            <h2>Aplikasi Enkripsi dan Dekripsi dengan Metode Lettermap Cipher</h2>
+            Encription key : <span id="kunci"></span>
+        </header>
+        <div class="body">
+            <div class="encrypt">
+                <h3>--- ENKRIPSI ---</h3>
+                <p>Masukkan kalimat yang ingin dienkripsi : <br/>
+                    <input id="plainInput" type="text"/></p>
+                <button id="BtnCipher">Cipher!</button> <button id="BtnReset1">Reset</button><br />
+                <p><strong>Plain Text : </strong><br/>
+                    <span id="plainText">[none]</span></p>
+                <p><strong>Ciphered Text : </strong><br/>
+                    <span id="cipheredOutput">[none]</span><br/></p>
+                
+            </div>
+            <div class="decrypt">
+                <h3>--- DEKRIPSI ---</h3>
+                <p>Masukkan kalimat terenkripsi yang ingin didekripsi : <br/>
+                    <input id="cipheredInput" type="text"/></p>
+                <button id="BtnDecipher">Decipher!</button> <button id="BtnReset2">Reset</button><br />
+                <p><strong>Ciphered Text : </strong><br/>
+                    <span id="cipheredText">[none]</span></p>
+                <p><strong>Deciphered Text : </strong><br/>
+                    <span id="decipheredOutput">[none]</span></p>
+            </div>
+        </div>
+        
+        <footer>
+            Copyright 2018 Kelompok 5
+            <!--<div class=kelompok> Aplikasi web ini disusun oleh : <br/>
+                <ul>
+                    <li>Aditya Bita</li>
+                    <li>Audi</li>
+                    <li>Haries</li>
+                    <li>Suha</li>
+                    <li>Syahirul</li>
+                </ul>
+            </div>-->
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
